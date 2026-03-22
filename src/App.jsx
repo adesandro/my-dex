@@ -5,7 +5,7 @@ export default function App() {
   const [amount,setAmount]=useState("");
   const [status,setStatus]=useState("");
 
-  const ROUTER="YOUR_ROUTER";
+  const ROUTER="0xfFf6f51ef0b895697cddb1630DBff2b1A3135676";
 
   async function connect(){
     if(!window.ethereum)return alert("Install wallet");
